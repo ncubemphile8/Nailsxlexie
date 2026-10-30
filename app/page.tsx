@@ -23,7 +23,7 @@ const WORK = [
   }
 ];
 
-const STOCK_VIDEO = "https://videos.pexels.com/video-files/7754856/7754856-hd_1920_1080_25fps.mp4";
+const STOCK_VIDEO = "https://videos.pexels.com/video-files/7754856/7754856-hd_1920_1080_30fps.mp4";
 const STOCK_POSTER = "https://images.pexels.com/photos/6135681/pexels-photo-6135681.jpeg?auto=compress&cs=tinysrgb&w=1500";
 const INSTAGRAM_URL = "https://www.instagram.com/nailsxlexie/";
 
