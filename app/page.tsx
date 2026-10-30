@@ -171,7 +171,7 @@ export default function Home() {
             </video>
             <div className="video-shade" />
             <div className="hero-image-caption">
-              <span className="caption-kicker">THE NAILSXLExIE FEELING</span>
+              <span className="caption-kicker">THE NAILSXLEXIE FEELING</span>
               <span className="caption-title">Beauty in every detail.</span>
             </div>
             <div className="hero-stamp"><Sparkles size={18} /><span>YOUR<br />NAIL<br />MOMENT</span></div>
@@ -203,7 +203,7 @@ export default function Home() {
         <div className="intro-aside">
           <div className="quote-mark">“</div>
           <p>Confidence looks good<br />on you.</p>
-          <span>NAILSXLExIE</span>
+          <span>NAILSXLEXIE</span>
         </div>
       </section>
 
@@ -353,7 +353,7 @@ export default function Home() {
         <p className="eyebrow">YOUR HANDS CALLED</p>
         <h2>They want a <em>little love.</em></h2>
         <a className="button button-light" href="#book">Let's book that set <ArrowUpRight size={16} /></a>
-        <span className="closing-bottom">NAILSXLExIE · BULAWAYO</span>
+        <span className="closing-bottom">NAILSXLEXIE · BULAWAYO</span>
       </section>
 
       <footer className="footer">
