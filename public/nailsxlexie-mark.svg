@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150" role="img" aria-labelledby="t d">
+<title id="t">Nailsxlexie</title><desc id="d">Nails, beauty, self care</desc>
+<g fill="none" stroke="#8D5945" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M56 57 C66 26 111 18 132 46 C150 69 131 103 103 106 C78 109 50 89 56 57Z" opacity=".95"/>
+  <path d="M75 79 C87 56 107 38 122 31 M84 94 C98 75 116 62 136 54" opacity=".75"/>
+  <path d="M52 38 L57 28 L62 38 L72 43 L62 48 L57 58 L52 48 L42 43Z" fill="#B58C5F" stroke="none"/>
+  <path d="M139 91 L143 82 L147 91 L156 95 L147 99 L143 108 L139 99 L130 95Z" fill="#B58C5F" stroke="none"/>
+</g>
+<text x="178" y="79" fill="#321D17" font-family="Georgia,serif" font-size="55" letter-spacing="1.5">Nailsxlexie</text>
+<path d="M180 97 H480" stroke="#B58C5F" stroke-width="1"/>
+<text x="181" y="121" fill="#9A715A" font-family="Arial,sans-serif" font-size="12" letter-spacing="5.8">NAILS  •  BEAUTY  •  SELF CARE</text>
+</svg>
