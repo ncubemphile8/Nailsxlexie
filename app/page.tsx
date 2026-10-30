@@ -3,7 +3,7 @@
 import { useMemo, useState, type FormEvent } from "react";
 import {
   ArrowDown, ArrowRight, ArrowUpRight, Check, ChevronDown, Clock3,
-  Instagram, Menu, MessageCircle, Play, Sparkles, X
+  Instagram, Menu, MessageCircle, Music2, Sparkles, X
 } from "lucide-react";
 
 const WORK = [
@@ -25,11 +25,11 @@ const WORK = [
 
 const STOCK_VIDEO = "https://videos.pexels.com/video-files/7754856/7754856-hd_1920_1080_30fps.mp4";
 const STOCK_POSTER = "https://images.pexels.com/photos/6135681/pexels-photo-6135681.jpeg?auto=compress&cs=tinysrgb&w=1500";
-const INSTAGRAM_URL = "https://www.instagram.com/nailsxlexie/";
+const TIKTOK_URL = "https://www.tiktok.com/@nailsxlexie";
 
 /* Add Alex's WhatsApp number in international format without + or spaces.
    Example for Zimbabwe: 2637XXXXXXXX. Until it's set, WhatsApp opens a contact picker. */
-const WHATSAPP_NUMBER = "";
+const WHATSAPP_NUMBER = "263788378004";
 
 function whatsappLink(message: string) {
   const phone = WHATSAPP_NUMBER.replace(/\D/g, "");
@@ -82,7 +82,7 @@ const FAQS = [
   },
   {
     q: "How much do services cost?",
-    a: "Pricing depends on the service, length and design. Send through the look you have in mind for a quote before booking."
+    a: "Sets are generally around $10–$30 depending on the style, length and design. Send an inspiration photo to confirm the price before your appointment."
   }
 ];
 
@@ -130,7 +130,7 @@ export default function Home() {
     <main>
       <div className="announcement">
         <span className="announcement-dot" />
-        <span>Now welcoming appointment enquiries in Bulawayo</span>
+        <span>Bulawayo nail appointments · By appointment only</span>
         <a href="#book">Make yours <ArrowUpRight size={13} /></a>
       </div>
 
@@ -286,14 +286,14 @@ export default function Home() {
           <span className="section-index">05 / YOUR APPOINTMENT</span>
           <p className="eyebrow">YOUR NEXT SET STARTS HERE</p>
           <h2>Shall we make<br /><em>some time</em><br />for you?</h2>
-          <p>Share a few details and your request will open in WhatsApp, ready to send to Alex. Your appointment is only confirmed once she replies.</p>
+          <p>Nailsxlexie is strictly by appointment. Share a few details and your request will open in WhatsApp, ready to send to Alex. Your appointment is only confirmed once she replies.</p>
           <div className="booking-details">
             <div><span className="detail-icon"><MessageCircle size={16} /></span><span><small>QUICK ENQUIRIES</small><strong>WhatsApp booking</strong></span></div>
-            <div><span className="detail-icon"><Clock3 size={16} /></span><span><small>LOCATION</small><strong>Bulawayo, Zimbabwe</strong></span></div>
+            <div><span className="detail-icon"><Clock3 size={16} /></span><span><small>APPOINTMENTS</small><strong>By appointment only</strong></span></div>
           </div>
           <div className="booking-social">
             <span>FOLLOW THE NAIL JOURNEY</span>
-            <a href={INSTAGRAM_URL} target="_blank" rel="noreferrer" aria-label="Instagram"><Instagram size={18} /></a>
+            <a href={TIKTOK_URL} target="_blank" rel="noreferrer" aria-label="TikTok"><Music2 size={18} /></a>
           </div>
         </div>
         <div className="booking-form-wrap">
@@ -324,7 +324,7 @@ export default function Home() {
               </div>
               <label>Anything else? <span className="optional">(optional)</span><textarea rows={3} value={note} onChange={(e) => setNote(e.target.value)} placeholder="Length, shape, colours, inspiration..." /></label>
               <button className="button button-dark form-submit" type="submit">Send appointment request <ArrowRight size={16} /></button>
-              <p className="form-small">No payment is taken here. Alex will confirm the appointment and share pricing with you.</p>
+              <p className="form-small">Estimated set price: $10–$30 depending on design. Booking is by appointment only; Alex will confirm availability.</p>
             </form>
           )}
         </div>
@@ -359,7 +359,7 @@ export default function Home() {
       <footer className="footer">
         <a className="footer-brand" href="#top"><img src="/nailsxlexie-mark.svg" alt="Nailsxlexie" /></a>
         <span className="footer-tag">NAILS • BEAUTY • SELF CARE</span>
-        <div className="footer-links"><a href="#services">Services</a><a href="#gallery">Portfolio</a><a href="#book">Book</a><a href={INSTAGRAM_URL} target="_blank" rel="noreferrer">Instagram <ArrowUpRight size={12} /></a></div>
+        <div className="footer-links"><a href="#services">Services</a><a href="#gallery">Portfolio</a><a href="#book">Book</a><a href={TIKTOK_URL} target="_blank" rel="noreferrer">TikTok <ArrowUpRight size={12} /></a></div>
         <span className="footer-credit">© {new Date().getFullYear()} Nailsxlexie. Made with care.</span>
       </footer>
 
